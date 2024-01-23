@@ -1,3 +1,8 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -337,7 +342,7 @@
 }
 
 .hero-wrapper-2 {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
 }
@@ -356,6 +361,7 @@
 
 .margin-bottom-24px-2 {
   color: #adadad;
+  text-align: center;
   margin-bottom: 0;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
@@ -867,7 +873,7 @@
 
 .blank {
   height: 100vh;
-  background-image: url('../images/V_FLOW_2_KIT_BLK.webp');
+  background-image: url('../images/Domi1.png');
   background-position: 50%;
   background-repeat: repeat-y;
   background-size: contain;
@@ -902,7 +908,7 @@
   z-index: 0;
   margin-top: auto;
   margin-bottom: auto;
-  display: none;
+  display: block;
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -1757,6 +1763,10 @@
   border-radius: 20px;
 }
 
+.heading-29 {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1885,13 +1895,19 @@
     padding-left: 0;
   }
 
+  .nav-menu-wrapper {
+    display: none;
+  }
+
   .nav-menu-two {
+    background-color: #000;
     border-radius: 20px;
     flex-direction: column;
     padding-bottom: 30px;
   }
 
   .nav-link {
+    color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
@@ -1937,6 +1953,10 @@
 
   .mobile-margin-top-10 {
     margin-top: 10px;
+  }
+
+  .button-primary {
+    display: inline-block;
   }
 
   .hero-domi, .domi-caraousel-wrapper {
@@ -2037,8 +2057,48 @@
     line-height: 20px;
   }
 
-  .hero-about, .hero-heading-left, .hero-stack {
+  .domi-flavor-side {
+    text-align: left;
+    justify-content: center;
+    display: flex;
+  }
+
+  .heading-8 {
+    white-space: nowrap;
+    display: none;
+  }
+
+  .blank {
+    background-size: cover;
+  }
+
+  .image-6 {
+    display: none;
+  }
+
+  .hero-about {
     padding: 60px 15px;
+  }
+
+  .image-8 {
+    display: block;
+  }
+
+  .hero-heading-left, .hero-stack {
+    padding: 60px 15px;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .text-container {
+    width: 90%;
+    padding-top: 278px;
+  }
+
+  .div-block {
+    display: none;
   }
 
   .footer-subscribe-2 {
@@ -2053,6 +2113,32 @@
   .footer-link-three-2 {
     margin-bottom: 10px;
   }
+
+  .image-10 {
+    display: block;
+  }
+
+  .text-wrapper {
+    display: none;
+  }
+
+  .info-wrapper {
+    width: 90%;
+    align-items: stretch;
+    padding-right: 30px;
+  }
+
+  .div-block-10 {
+    display: none;
+  }
+
+  .heading-29 {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, sans-serif;
+    font-size: 100px;
+    line-height: 90px;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2062,6 +2148,10 @@
 
   .nav-menu-two {
     flex-direction: column;
+  }
+
+  .margin-bottom-24px {
+    font-size: 14px;
   }
 
   .desiign-container {
@@ -2105,6 +2195,10 @@
 
   .gallery-slider-right {
     right: -20px;
+  }
+
+  .image {
+    display: none;
   }
 
   .color-contaiiner {
@@ -2152,8 +2246,35 @@
     align-items: flex-start;
   }
 
+  .hero-about {
+    height: auto;
+    padding-top: 131px;
+    padding-bottom: 91px;
+  }
+
+  .image-8 {
+    display: none;
+  }
+
+  .text-container {
+    padding: 5px;
+  }
+
+  .container-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .footer-form-two-2 {
     padding: 20px;
+  }
+
+  .image-10 {
+    display: none;
+  }
+
+  .submit-button {
+    width: 100%;
   }
 }
 
